@@ -64,6 +64,7 @@ class HypeController {
                 }
                 self.hypes = fetchedHypes
                 completion(true)
+                print("Fetched all hypes")
             case .failure(let error):
                 print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
                 completion(false)

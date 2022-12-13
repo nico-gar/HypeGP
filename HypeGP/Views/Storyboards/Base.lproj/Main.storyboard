@@ -11,6 +11,7 @@
         <!--Hype List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="HypeListViewController" customModule="HypeGP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -47,13 +48,13 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="gDB-ZF-Zku"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bT7-JE-tOd" secondAttribute="bottom" id="7uS-sj-UgQ"/>
-                            <constraint firstItem="bT7-JE-tOd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DOK-EV-see"/>
-                            <constraint firstItem="bT7-JE-tOd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Iyx-mu-7Uc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bT7-JE-tOd" secondAttribute="trailing" id="gZ6-Ek-8ij"/>
+                            <constraint firstItem="gDB-ZF-Zku" firstAttribute="bottom" secondItem="bT7-JE-tOd" secondAttribute="bottom" id="7uS-sj-UgQ"/>
+                            <constraint firstItem="bT7-JE-tOd" firstAttribute="top" secondItem="gDB-ZF-Zku" secondAttribute="top" id="DOK-EV-see"/>
+                            <constraint firstItem="bT7-JE-tOd" firstAttribute="leading" secondItem="gDB-ZF-Zku" secondAttribute="leading" id="Iyx-mu-7Uc"/>
+                            <constraint firstItem="gDB-ZF-Zku" firstAttribute="trailing" secondItem="bT7-JE-tOd" secondAttribute="trailing" id="gZ6-Ek-8ij"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="53W-39-SNR">
@@ -64,16 +65,16 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableview" destination="bT7-JE-tOd" id="erw-t3-Ngq"/>
+                        <outlet property="tableView" destination="bT7-JE-tOd" id="VVg-Sp-snB"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1066.4122137404579" y="-2.1126760563380285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Ju-iE-tKS">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lx1-Yd-gwi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X3w-nF-1ys" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jpg-ex-LEU">
@@ -85,7 +86,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2Bi-Y2-vgT"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lx1-Yd-gwi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139.69465648854961" y="-2.1126760563380285"/>
         </scene>
